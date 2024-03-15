@@ -4,6 +4,7 @@
    xmlns:tools="http://schemas.android.com/tools"
    android:layout_width="match_parent"
    android:layout_height="match_parent"
+   android:orientation="vertical"
    tools:context=".rv.technique.SaisieRvActivity">
 
 
@@ -11,4 +12,70 @@
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
        android:text="@string/titreSaisie" />
+
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/lPraticien"
+       android:labelFor="@+id/lPraticien"/>
+
+
+   <Spinner
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/praticien"
+       android:drawSelectorOnTop="true">
+   </Spinner>
+
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/lMotif"
+       android:labelFor="@+id/lMotif"/>
+   <Spinner
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/motif"
+       android:drawSelectorOnTop="true">
+   </Spinner>
+
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/lCoefConf"
+       android:labelFor="@+id/lCoefConf"/>
+   <Spinner
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/coefConf"
+       android:drawSelectorOnTop="true">
+   </Spinner>
+
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/btn_validerForm"
+       android:id="@+id/ValiderForm"
+       android:onClick="btnValiderForm"/>
+
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/btn_annulerForm"
+       android:onClick="btnAnnulerForm"
+       android:id="@+id/AnnulerForm"
+       android:layout_marginLeft="5dp"/>
+
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/btn_retour"
+       android:id="@+id/Retour"
+       android:onClick="btnRetour" />
 </LinearLayout>
