@@ -4,8 +4,18 @@
    <string name="mdp">Mot de passe :</string>
    <string name="btn_valider">VALIDER</string>
    <string name="btn_annuler">ANNULER</string>
-   <string name="btn_saisir">Saisir</string>
-   <string name="btn_consulter">Consulter</string>
+   <string name="btn_saisir">SAISIR UN RAPPORT DE VISITE</string>
+   <string name="btn_consulter">CONSULTER UN RAPPORT DE VISITE</string>
    <string name="titreSaisie">Formulaire de saisie</string>
    <string name="titreConsulter">Sélection du mois et de l\'année</string>
+   <string name="lMois">Mois :</string>
+   <string name="lAnnee">Année :</string>
+   <string name="btn_afficher">AFFICHER LA LISTE DES RAPPORTS</string>
+   <string name="titreListe">Liste des rapports de visite</string>
+   <string name="btn_retour">RETOUR</string>
+   <string name="lPraticien">Praticien :</string>
+   <string name="lMotif">Motif :</string>
+   <string name="lCoefConf">Coefficient de confiance :</string>
+   <string name="btn_validerForm">VALIDER</string>
+   <string name="btn_annulerForm">ANNULER</string>
 </resources>
